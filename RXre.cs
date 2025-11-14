@@ -12,7 +12,7 @@ namespace PubSubRxServer
         {
             Console.WriteLine("Starting WebSocket Server...");
 
-            var server = new WebSocketServer("ws://0.0.0.0:8181");
+            var server = new WebSocketServer("wss://reactiverxoutsystems-exg3a0d9bnftbec9.canadacentral-01.azurewebsites.net/ws");
 
             server.Start(socket =>
             {
